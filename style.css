@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: hsl(251, 18%, 48%);
+}
+.main{
+    margin: 100px auto 0;
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+ 
+}
+h1{
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+h3{
+    color: rgb(53, 51, 51);
+}
+
+#question1,#question2,#question3{
+    display: flex;
+    flex-direction:  column;
+}
+
+button{
+    background-color: white;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid gray;
+}
+#next{
+    width: 100px;
+    background-color: hsl(251, 18%, 48%);
+    color: white;
+}
+
+button:hover{
+    background-color: hsl(251, 18%, 48%) ;
+    color: white;
+}
+
+
