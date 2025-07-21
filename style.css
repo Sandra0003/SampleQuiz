@@ -21,7 +21,7 @@ h3{
     color: rgb(53, 51, 51);
 }
 
-#question1,#question2,#question3{
+.quiz,#answer-button{
     display: flex;
     flex-direction:  column;
 }
@@ -31,16 +31,22 @@ button{
     margin-bottom: 20px;
     height: 40px;
     border: 1px solid gray;
+    transition: all 0.5s;
 }
-#next{
+#next-bt{
     width: 100px;
     background-color: hsl(251, 18%, 48%);
     color: white;
+    cursor: pointer;
+    display: none;
 }
 
 button:hover{
     background-color: hsl(251, 18%, 48%) ;
     color: white;
+}
+.hide{
+    display: none;
 }
 
 

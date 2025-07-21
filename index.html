@@ -7,38 +7,21 @@
     <title>Sample Quiz Program</title>
   </head>
   <body>
-    <div class="main">
+    <div class="main" id="qus">
       <h1>SAMPLE QUIZ</h1>
-      <div id="question1">
-        <h3>
-          1. Which keyword is used to declare a variable that cannot be
-          reassigned?
-        </h3>
-        <button class="ans" onclick="crrt()">const</button>
-        <button>var</button>
-        <button>let</button>
-        <button>static</button>
-        <button id="next" onclick="second()">Next</button>
+      <div class="quiz">
+        <h2 id="question">question</h2>
+        <div id="answer-button">
+          <button class="btn">Answern1</button>
+          <button class="btn">ans 2</button>
+          <button class="btn">ans 3</button>
+          <button class="btn">ans 4</button>
+
+        </div>
+        <button id="next-bt">Next</button>
       </div>
-      <div id="question2" style="display: none">
-        <h3>2. Which of the following represents loops in javascript</h3>
-        <button>for</button>
-        <button>while</button>
-        <button>forEach</button>
-        <button>All of the above</button>
-        <button id="next" onclick="third()">Next</button>
-      </div>
-      <div id="question3" style="display: none">
-        <h3>
-          3. Which method is used to insert a new element at the end of an array
-        </h3>
-        <button>unshift()</button>
-        <button>push()</button>
-        <button>pop()</button>
-        <button>None of the above</button>
-        <button id="next">Next</button>
-      </div>
-    </div>
+    
+   
 
     <script src="index.js"></script>
   </body>
